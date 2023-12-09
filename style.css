@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&display=swap');
+
+*, 
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Home section */
+#home {
+    width: 100vw;
+    height: 584px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .home__container {
+    width: 1130px;
+    height: 433.578px;
+    position: relative;
+}
+
+#home .home__title { 
+    text-align: left;
+    width: 485px;
+    color: #1F1F1F;
+    font-family: Fraunces;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 63.8px;
+    letter-spacing: 0.2px;
+    margin-top: 51px;
+}
+
+#home .home__text {
+    text-decoration: none;
+    width: 351px;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+    margin-top: 24px;
+    margin-bottom: 29px;
+}
+
+#home .home__link {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px; 
+    letter-spacing: 0.2px;
+    background: #0070A0;
+    padding: 8px 32px;
+    margin-right: 24px;
+}
+
+#home .home__btn {
+    display: inline-flex;
+    padding: 8px 0px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background: transparent;
+    color: #0070A0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+#home .home__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* End Home section */
