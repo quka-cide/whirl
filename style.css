@@ -86,3 +86,108 @@
     right: 0;
 }
 /* End Home section */
+
+/* About section */
+#about {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .about__container {
+    margin-top: 40px;
+    display: flex;
+    width: 1230px;
+    height: 96.813px;
+    padding: 0.422px 50px 0px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23.578px;
+    margin-bottom: 160px;
+}
+
+#about .about__title {
+    color: #1F1F1F;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: 0.2px;
+    width: 366px;
+}
+
+#about .about__list {
+    display: flex;
+    width: 731px;
+    height: 35.813px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 61px;
+}
+
+#about .about__list li {
+    list-style: none;
+}
+ /* Cards */
+ #about .cards {
+    display: flex;
+    width: 1130px;
+    height: 250px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+ }
+
+ #about .cards .card_1 {
+    width: 355px;
+    height: 250px;
+    background: #FAEA73;
+ }
+
+ #about .cards .card_2 {
+    width: 355px;
+    height: 250px;
+    background: #CCEFF6;
+ }
+
+ #about .cards .card_3 {
+    width: 355px;
+    height: 250px;
+    background: #F7CEDC;
+ }
+
+ #about .card__img {
+    margin-top: 32px;
+    margin-left: 32px;
+    
+ }
+
+ #about .card__title {
+    margin-left: 32px;
+    margin-bottom: 13px;
+    color: #1F1F1F;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px; /* 125% */
+    letter-spacing: 0.2px;
+ }
+
+ #about .card__text {
+    margin-left: 32px;
+    width: 287px;
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    letter-spacing: 0.2px;
+ }
+ /* End Cards */
+/* End About section */
