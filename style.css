@@ -89,6 +89,7 @@
 
 /* About section */
 #about {
+    height: 666px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -142,6 +143,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 32px;
+    margin-bottom: 120px;
  }
 
  #about .cards .card_1 {
@@ -191,3 +193,227 @@
  }
  /* End Cards */
 /* End About section */
+
+/* Features section */
+#features .features {
+    width: 100vw;
+    height: 694px;
+    background: #F7F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#features .features__container {
+    width: 1230px;
+    height: 534px;
+}
+
+#features .features__title {
+    width: 629px;
+    margin-left: 50px;
+    display: block;
+    color: #1F1F1F;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50.4px; /* 120% */
+    letter-spacing: 0.2px;
+}
+
+#features .features__title span {
+    width: 573px;
+    color: #1F1F1F;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 50.4px; /* 129.231% */
+    letter-spacing: 0.5px;
+}
+
+#features .features__second-container {
+    display: inline-flex;
+    padding-right: 60px;
+    align-items: center;
+    gap: 250px;
+}
+
+#features .features__input-items {
+    margin-left: 50px;
+}
+
+#features .features__input-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    /* width: 450px;
+    height: 64px; */
+    
+}
+
+#features .features__input-item img {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+#features .features__input-item summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #626A72;
+    font-family: Fraunces;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.2px; /* 126% */
+    letter-spacing: 0.2px;
+}
+
+#features .features__input-item summary:focus {
+    color: #1F1F1F;
+}
+
+summary::after {
+    content: '';
+    width: 18px;
+    height: 10px;
+    padding-right: 16px;
+    background: url('./img/IMAGE.png') no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+    
+}
+
+summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details {
+    width: 374px;
+     border-top: 1px solid #C2CDD8;
+    border-bottom: 1px solid #C2CDD8;
+    padding-bottom: 20px;
+    padding-top: 18px;
+  }
+
+  details[open] {
+    display: flex;
+    width: 373.828px;
+    padding: 1.109px 0px 15.891px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    
+    
+  }
+
+  details[open] summary {
+    
+    font-family: Fraunces;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px; /* 120% */
+    letter-spacing: 0.2px;
+    padding-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  details p {
+    color: #1F1F1F;
+    font-family: Fraunces;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px; /* 120% */
+    letter-spacing: 0.2px;
+  }
+/* End Features section */
+/* all-about */
+.all-about {
+    height: 458px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-about__container {
+    display: flex;
+    width: 1130px;
+    height: 218px;
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 98px; */
+}
+
+.all-about__container h1 {
+    text-wrap: nowrap;
+    color: #1F1F1F;
+    font-family: Fraunces;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50.4px; /* 120% */
+    letter-spacing: 0.2px;
+    margin-right: 98px;
+}
+
+.all-about__container h1 span {
+    color: #1F1F1F;
+    font-family: Fraunces;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 50.4px; /* 122.927% */
+    letter-spacing: 0.5px;
+}
+
+.card-item:nth-of-type(1) {
+    display: flex;
+padding-top: 55px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+flex-shrink: 0;
+margin-right: 32px;
+}
+
+.card-item1 h2 {
+    color: #1F1F1F;
+font-family: Fraunces;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.25px; /* 125% */
+letter-spacing: 0.2px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card-item h2 {
+    color: #1F1F1F;
+font-family: Fraunces;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.25px; /* 125% */
+letter-spacing: 0.2px;
+margin-bottom: 11px;
+}  
+
+.card-item p {
+    width: 215px;
+    color: #1F1F1F;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 160% */
+letter-spacing: 0.2px;
+}
+/* End all-about */
